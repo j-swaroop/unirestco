@@ -1,0 +1,126 @@
+.cart-dish-item-container {
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 16px 0 #818386;
+  display: flex;
+  padding-right: 30px;
+}
+@media (max-width: 576px) {
+  .cart-dish-item-container {
+    padding: 10px;
+  }
+}
+.cart-dish-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.cart-dish-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.cart-dish-currency {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #595c60;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .cart-dish-heading {
+    font-size: 14px;
+  }
+  .cart-dish-currency {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+}
+
+.add-to-cart-btn {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  height: 34px;
+  width: 85px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.cart-dish-img {
+  width: 180px;
+  height: 180px;
+}
+@media (max-width: 576px) {
+  .cart-dish-img {
+    width: 90px;
+    height: 90px;
+    margin-right: 5px;
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+}
+.custom {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 0;
+}
+.dishes-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quantity {
+  font-family: 'Roboto';
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.cart-plus-btn {
+  color: #595c60;
+  background-color: transparent;
+  border: 1px solid #595c60;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+}
+.cart-minus-btn {
+  color: #595c60;
+  background-color: transparent;
+  border: 1px solid #595c60;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+}
+.cart-remove-btn {
+  color: black;
+  background-color: #f97b51;
+  font-family: 'Roboto';
+  height: 36px;
+  width: 80px;
+  border: none;
+  border-radius: 8px;
+  align-self: flex-end;
+  margin-left: auto;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .cart-remove-btn {
+    font-family: 'Roboto';
+    height: 30px;
+    width: 60px;
+    font-size: 10px;
+  }
+}

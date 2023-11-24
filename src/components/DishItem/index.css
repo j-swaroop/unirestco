@@ -1,0 +1,158 @@
+.dish-item-container {
+  border: 1px solid #b5b7b9;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+@media (max-width: 576px) {
+  .dish-item-container {
+    padding: 10px;
+  }
+}
+.dish-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dish-container {
+  display: flex;
+  width: 60%;
+}
+@media (min-width: 768px) {
+  .dish-container {
+    width: 60%;
+  }
+}
+
+.dish-type-img {
+  width: 50px;
+  height: 50px;
+  margin-top: 18px;
+}
+.dish-text-details {
+  margin-left: 15px;
+}
+@media (max-width: 576px) {
+  .dish-text-details {
+    margin-left: 10px;
+  }
+}
+.dish-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.dish-currency {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #595c60;
+  font-weight: bold;
+}
+.dish-description {
+  color: #818386;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+@media (max-width: 576px) {
+  .dish-heading {
+    font-size: 16px;
+  }
+  .dish-currency {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .dish-description {
+    font-size: 13px;
+    width: 70%;
+  }
+  .dish-type-img {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+.add-to-cart-btn {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  height: 34px;
+  width: 85px;
+  font-weight: bold;
+  margin-left: 10px;
+
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.not-available-text {
+  color: red;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.calories-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: rgb(246, 139, 68);
+  font-weight: bold;
+}
+.dish-img {
+  width: 180px;
+  height: 180px;
+}
+@media (max-width: 576px) {
+  .dish-img {
+    width: 90px;
+    height: 90px;
+    margin-right: 5px;
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  .calories-heading {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+}
+.custom {
+  color: blue;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 0;
+}
+.cart-plus-btn {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  width: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.cart-minus-btn {
+  background-color: green;
+  color: aliceblue;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  width: 25px;
+  cursor: pointer;
+}
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .cart-minus-btn {
+    width: 20px;
+  }
+  .cart-plus-btn {
+    width: 20px;
+  }
+}
